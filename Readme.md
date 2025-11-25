@@ -2,6 +2,7 @@
 
 A prompt-driven, full-stack intelligent email assistant designed to categorize, manage, and automate inbox workflows using Generative AI.
 
+**WEBSITE URL:** https://smart-email-agent.streamlit.app/
 **DEMO VIDEO:** https://drive.google.com/file/d/1QjMmb7gs7oK18SxnHyOrZkLZjwTrXOGA/view?usp=sharing
 ---
 
@@ -174,6 +175,7 @@ email-agent/
 - Multi-user workspace support
 - Realtime WebSocket notifications
 - Advanced priority scoring using ML models
+
 
 
 
