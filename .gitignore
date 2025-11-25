@@ -1,0 +1,15 @@
+# Environment variables (CRITICAL: Contains API Keys)
+.env
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database (Mock data)
+data/*.db
+
+# OS generated files
+.DS_Store

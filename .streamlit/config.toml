@@ -1,0 +1,17 @@
+[theme]
+
+base = "dark"
+
+primaryColor = "#a8a5a5a2"        
+backgroundColor = "#000000ff"    
+secondaryBackgroundColor = "#363636ff"
+textColor = "#ffffffff"           
+
+
+font = "sans serif"
+
+widgetBackgroundColor = "#ccccccff" 
+
+widgetBorderColor = "#1a314eff"
+
+linkColor = "#4da6ff"
