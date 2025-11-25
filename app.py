@@ -10,8 +10,21 @@ from src.prompt_manager import PromptManager
 from src.llm_engine import LLMEngine
 from setup_data import reset_and_seed_db
 from src.db_manager import schedule_with_shadow_summary
+import os
 
+DB_FILE = "data/mock_inbox.db"
 
+# Check if DB exists. If not, run setup.
+if not os.path.exists(DB_FILE):
+    # Create data directory if it doesn't exist
+    if not os.path.exists("data"):
+        os.makedirs("data")
+    
+    # Run the seeder
+    reset_and_seed_db()
+    print(" Database initialized automatically on first run.")
+
+    
 # Page Config
 st.set_page_config(page_title="AI Email Agent", layout="wide")
 
