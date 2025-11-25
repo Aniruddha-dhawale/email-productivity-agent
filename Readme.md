@@ -100,7 +100,7 @@ Uses Retrieval-Augmented Generation over your local SQLite inbox data.
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/email-agent.git
+git clone https://github.com/yourusername/email-productivity-agent.git
 cd email-agent
 ```
 
@@ -173,4 +173,5 @@ email-agent/
 - Multi-user workspace support
 - Realtime WebSocket notifications
 - Advanced priority scoring using ML models
+
 
