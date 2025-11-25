@@ -145,8 +145,8 @@ streamlit run app.py
 ### **4. Configuring the "Brain"**
 - Expand the **"Agent Configuration"** section in the sidebar.
 - Edit the **Categorization Rules**. For example, add `[Project X]` to the text to automatically create a new filter checkbox for "Project X".
-- Customize the format to display the *action items* (bullets/JSON format).
-- Change the **Reply Tone** to "Pirate" or "Formal" to see how the drafts adapt.
+- Customize the format to display the **action items** (bullets/JSON format).
+- Change the **Reply Tone** to "casual" or "Formal" to see how the drafts adapt.
 
 
 ## 📂 File Structure
@@ -173,5 +173,6 @@ email-agent/
 - Multi-user workspace support
 - Realtime WebSocket notifications
 - Advanced priority scoring using ML models
+
 
 
